@@ -1,0 +1,38 @@
+2025-03-25 19:33:47,675 - Found credentials in shared credentials file: ~/.aws/credentials
+2025-03-25 19:33:48,715 - Uploaded: source1.csv to muthu-etl-project-bucket/source1.csv
+2025-03-25 19:33:48,996 - Uploaded: source1.json to muthu-etl-project-bucket/source1.json
+2025-03-25 19:33:49,265 - Uploaded: source1.xml to muthu-etl-project-bucket/source1.xml
+2025-03-25 19:33:49,535 - Uploaded: source2.csv to muthu-etl-project-bucket/source2.csv
+2025-03-25 19:33:49,803 - Uploaded: source2.json to muthu-etl-project-bucket/source2.json
+2025-03-25 19:33:50,076 - Uploaded: source2.xml to muthu-etl-project-bucket/source2.xml
+2025-03-25 19:33:50,404 - Uploaded: source3.csv to muthu-etl-project-bucket/source3.csv
+2025-03-25 19:33:50,764 - Uploaded: source3.json to muthu-etl-project-bucket/source3.json
+2025-03-25 19:33:51,044 - Uploaded: source3.xml to muthu-etl-project-bucket/source3.xml
+2025-03-25 19:33:51,839 - Downloaded: source1.csv to D:\Files\source1.csv
+2025-03-25 19:33:52,358 - Downloaded: source1.json to D:\Files\source1.json
+2025-03-25 19:33:52,880 - Downloaded: source1.xml to D:\Files\source1.xml
+2025-03-25 19:33:53,396 - Downloaded: source2.csv to D:\Files\source2.csv
+2025-03-25 19:33:53,917 - Downloaded: source2.json to D:\Files\source2.json
+2025-03-25 19:33:54,451 - Downloaded: source2.xml to D:\Files\source2.xml
+2025-03-25 19:33:54,959 - Downloaded: source3.csv to D:\Files\source3.csv
+2025-03-25 19:33:55,479 - Downloaded: source3.json to D:\Files\source3.json
+2025-03-25 19:33:56,018 - Downloaded: source3.xml to D:\Files\source3.xml
+2025-03-25 19:33:56,019 - Starting extraction
+2025-03-25 19:33:56,019 - Extracting: D:\Files\source1.csv
+2025-03-25 19:33:56,023 - Extracting: D:\Files\source1.json
+2025-03-25 19:33:56,024 - Extracting: D:\Files\source1.xml
+2025-03-25 19:33:56,024 - Extracting: D:\Files\source2.csv
+2025-03-25 19:33:56,026 - Extracting: D:\Files\source2.json
+2025-03-25 19:33:56,026 - Extracting: D:\Files\source2.xml
+2025-03-25 19:33:56,027 - Extracting: D:\Files\source3.csv
+2025-03-25 19:33:56,028 - Extracting: D:\Files\source3.json
+2025-03-25 19:33:56,028 - Extracting: D:\Files\source3.xml
+2025-03-25 19:33:56,028 - Extraction completed
+2025-03-25 19:33:56,030 - Starting transformation
+2025-03-25 19:33:56,030 - Transformation completed
+2025-03-25 19:33:56,030 - Saving to: transformed_data.csv
+2025-03-25 19:33:56,032 - Data saved as .csv file
+2025-03-25 19:33:56,302 - File uploaded to S3: s3://muthu-etl-project-bucket/processed-data/transformed_data.csv
+2025-03-25 19:33:59,419 - Connected to AWS RDS MySQL successfully!
+2025-03-25 19:33:59,678 - Table 'persons' checked/created successfully!
+2025-03-25 19:34:02,247 - CSV Data Uploaded Successfully!
